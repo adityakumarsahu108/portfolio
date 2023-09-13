@@ -39,9 +39,9 @@ const Contact = () => {
         'template_fsio9ha',
         {
           from_name: form.name,
-          to_name: "Aditya Revankar P",
+          to_name: "Aditya Kumar Sahu",
           from_email: form.email,
-          to_email: "adityarevankar03@gmail.com",
+          to_email: "adityakumarsahu108@gmail.com",
           message: form.message,
         },
         '5XFv-vDwEG-1-M6-Z'

@@ -24,12 +24,15 @@ import {
     tripguide,
     threejs,
     
+    
   } from "../assets";
 
 import praveen from '../assets/praveenkumar.png';
 import achut from '../assets/achut.png';
-import sahu from '../assets/sahu.png'
- 
+import rev from '../assets/rev.png';
+import flutter from '../assets/tech/flutter.png';
+import dart from '../assets/tech/dart.png'; 
+import sony from '../assets/tech/sony.png';
   
   export const navLinks = [
     {
@@ -52,17 +55,18 @@ import sahu from '../assets/sahu.png'
       icon: web,
     },
     {
-      title: "Android Application Developer",
+      title: "Photographer",
+      icon: sony,
+    },
+    {
+      title: "Flutter Application Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    
   ];
   
   const technologies = [
@@ -87,8 +91,8 @@ import sahu from '../assets/sahu.png'
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Dart",
+      icon: dart,
     },
     {
       name: "Tailwind CSS",
@@ -110,36 +114,41 @@ import sahu from '../assets/sahu.png'
       name: "git",
       icon: git,
     },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     {
-      name: "figma",
-      icon: figma,
+      name: "Flutter",
+      icon: flutter,
     },
+    
   ];
   
   const experiences = [
     
     {
       title: "Full stack Developer",
-      company_name: "Point Blank",
-      icon: meta,
+      company_name: "Genisis",
+      icon: mobile,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Present",
+      date: "April 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using React.js,Dart,Flutter and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        // "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React.js Developer",
+      title: "Flutter Developer",
       company_name: "fiverr",
-      icon: starbucks,
+      icon: creator,
       iconBg: "#383E56",
-      date: "March 2020 - April 2023",
+      date: "December 2022 - Present",
       points: [
         "Freelancing on fiverr.",
-        "maintaining web applications using React.js and other related technologies.",
+        "maintaining Android applications using Dart,Flutter and other related technologies.",
         
       ],
     },
@@ -156,19 +165,19 @@ import sahu from '../assets/sahu.png'
     //     "Participating in code reviews and providing constructive feedback to other developers.",
     //   ],
     // },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    {
+      title: "Web Developer",
+      company_name: "Gym Guru",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "Jan 2022 - Jan 2023",
+      points: [
+        "Developing web applications using React.js and other related technologies.",
+        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
     
   ];
   
@@ -192,10 +201,10 @@ import sahu from '../assets/sahu.png'
     {
       testimonial:
         "After aditya optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Aditya Kumar Sahu",
+      name: "Aditya Revankar",
       designation: "CTO",
       company: "Tribal Welfare Assoc.",
-      image: sahu,
+      image: rev,
     },
   ];
   
