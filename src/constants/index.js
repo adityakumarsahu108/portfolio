@@ -174,7 +174,7 @@ import fitpal from '../assets/fitpal.png';
     {
       title: "Web Developer",
       company_name: "Gym Guru",
-      icon: shopify,
+      icon: javascript,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
