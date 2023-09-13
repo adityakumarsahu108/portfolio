@@ -33,6 +33,11 @@ import rev from '../assets/rev.png';
 import flutter from '../assets/tech/flutter.png';
 import dart from '../assets/tech/dart.png'; 
 import sony from '../assets/tech/sony.png';
+import quiz from '../assets/quiz.png';
+import calulator from '../assets/calculator.png';
+import coffee from '../assets/coffee.png';
+import portfolio from '../assets/portfolio.png';
+import fitpal from '../assets/fitpal.png';
   
   export const navLinks = [
     {
@@ -54,10 +59,7 @@ import sony from '../assets/tech/sony.png';
       title: "Web Developer",
       icon: web,
     },
-    {
-      title: "Photographer",
-      icon: sony,
-    },
+    
     {
       title: "Flutter Application Developer",
       icon: mobile,
@@ -65,6 +67,10 @@ import sony from '../assets/tech/sony.png';
     {
       title: "Backend Developer",
       icon: backend,
+    },
+    {
+      title: "Photographer",
+      icon: sony,
     },
     
   ];
@@ -184,7 +190,7 @@ import sony from '../assets/tech/sony.png';
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but aditya proved me wrong.",
+        "I thought it was impossible to make an app as beautiful as our product, but aditya proved me wrong.",
       name: "S Praveen Kumar",
       designation: "Director",
       company: "Strides arcolab ltd",
@@ -227,13 +233,13 @@ import sony from '../assets/tech/sony.png';
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: portfolio,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Mid Journey clone",
+      name: "Quiz App",
       description:
-        "Web application that enables users to promt using text to generate an image, leveraging dall-E api.",
+        "Web application that enables users to take quizes using the help of quiz API.",
       tags: [
         {
           name: "MERN",
@@ -244,33 +250,75 @@ import sony from '../assets/tech/sony.png';
           color: "green-text-gradient",
         },
         {
-          name: "DALL-E",
+          name: "API",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/adityarevankarp/midJ-clone",
+      image: quiz,
+      source_code_link: "https://github.com/adityakumarsahu108/QuizApp",
     },
     {
-      name: "Gold Chain",
+      name: "Math Game",
       description:
-        "A secure transparent supply chain for Conventional Trust based gold jewelry business. using solana blockchain.",
+        "A simple and fun maths game app using dart and flutter with responsive android app.",
       tags: [
         {
-          name: "Rust",
+          name: "Dart",
           color: "blue-text-gradient",
         },
         {
-          name: "Solana",
+          name: "Flutter",
           color: "green-text-gradient",
         },
         {
-          name: "React.js",
+          name: "Hive",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/adityarevankarp/GoldChain",
+      image: calulator,
+      source_code_link: "https://github.com/adityakumarsahu108/math_game",
+    },
+    {
+      name: "Coffe Shop",
+      description:
+        "A warm and simple coffe app to order things and store and delete items from cart.",
+      tags: [
+        {
+          name: "Dart",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Flutter",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Hive",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: coffee,
+      source_code_link: "https://github.com/adityakumarsahu108/coffe_basic_app",
+    },
+    {
+      name: "Fitness Bot",
+      description:
+        "A fitness bot using chatgpt API which delivers to your fitness queries.",
+      tags: [
+        {
+          name: "React-js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vanta css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fitpal,
+      source_code_link: "https://github.com/adityakumarsahu108/FitPal",
     },
   ];
   
