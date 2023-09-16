@@ -38,6 +38,7 @@ import calulator from '../assets/calculator.png';
 import coffee from '../assets/coffee.png';
 import portfolio from '../assets/portfolio.png';
 import fitpal from '../assets/fitpal.png';
+import todo from '../assets/todo.png';
   
   export const navLinks = [
     {
@@ -320,6 +321,28 @@ import fitpal from '../assets/fitpal.png';
       image: fitpal,
       source_code_link: "https://github.com/adityakumarsahu108/FitPal",
     },
+    {
+      name: "To Do App",
+      description:
+        "A simple app to help you schedule your tasks and track them.",
+      tags: [
+        {
+          name: "Dart",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Flutter",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Hive",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: todo,
+      source_code_link: "https://github.com/adityakumarsahu108/to-do-app",
+    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
