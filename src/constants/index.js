@@ -39,6 +39,7 @@ import coffee from '../assets/coffee.png';
 import portfolio from '../assets/portfolio.png';
 import fitpal from '../assets/fitpal.png';
 import todo from '../assets/todo.png';
+import food from '../assets/foodapp.png';
   
   export const navLinks = [
     {
@@ -185,6 +186,19 @@ import todo from '../assets/todo.png';
         // "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    {
+      title: "MERN STACK internship",
+      company_name: "WSA(web stack academy)",
+      icon: javascript,
+      iconBg: "#383E56",
+      date: "September 2023-November 2023",
+      points: [
+        "Completed a full course of web application development under the guidance of mentors from WSA.",
+        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Built a full stack Food web application with both frontend,backend and Mongo db data base. ",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
     
   ];
   
@@ -236,6 +250,52 @@ import todo from '../assets/todo.png';
       ],
       image: portfolio,
       source_code_link: "https://github.com/",
+    },
+    {
+      name: "Food web Application",
+      description:
+        "A complete food web app which enables you to order,pay and add to cart like options with backend and frontend.",
+      tags: [
+        {
+          name: "React js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Mongo DB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "API",
+          color: "red-text-gradient",
+        },
+      ],
+      image: food,
+      source_code_link: "https://github.com/adityakumarsahu108/mern-stack-internship",
+    },
+    {
+      name: "Fitness Bot",
+      description:
+        "A fitness bot using chatgpt API which delivers to your fitness queries.",
+      tags: [
+        {
+          name: "React-js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vanta css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fitpal,
+      source_code_link: "https://github.com/adityakumarsahu108/FitPal",
     },
     {
       name: "Quiz App",
@@ -300,27 +360,7 @@ import todo from '../assets/todo.png';
       image: coffee,
       source_code_link: "https://github.com/adityakumarsahu108/coffe_basic_app",
     },
-    {
-      name: "Fitness Bot",
-      description:
-        "A fitness bot using chatgpt API which delivers to your fitness queries.",
-      tags: [
-        {
-          name: "React-js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vanta css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "API",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: fitpal,
-      source_code_link: "https://github.com/adityakumarsahu108/FitPal",
-    },
+   
     {
       name: "To Do App",
       description:
@@ -342,6 +382,7 @@ import todo from '../assets/todo.png';
       image: todo,
       source_code_link: "https://github.com/adityakumarsahu108/to-do-app",
     },
+    
     
   ];
   
