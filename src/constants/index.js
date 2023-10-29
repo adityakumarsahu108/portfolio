@@ -40,6 +40,7 @@ import portfolio from '../assets/portfolio.png';
 import fitpal from '../assets/fitpal.png';
 import todo from '../assets/todo.png';
 import food from '../assets/foodapp.png';
+import nike from '../assets/nike_app.png'
   
   export const navLinks = [
     {
@@ -296,6 +297,27 @@ import food from '../assets/foodapp.png';
       ],
       image: fitpal,
       source_code_link: "https://github.com/adityakumarsahu108/FitPal",
+    },
+    {
+      name: "Nike E-commerce App",
+      description:
+        "A Flutter E-commerce App which provides user to buy shoes with functional and cutom buttons and UI",
+      tags: [
+        {
+          name: "Dart",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Flutter",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Hive",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nike,
+      source_code_link: "https://github.com/adityakumarsahu108/QuizApp",
     },
     {
       name: "Quiz App",
