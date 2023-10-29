@@ -317,7 +317,7 @@ import nike from '../assets/nike_app.png'
         },
       ],
       image: nike,
-      source_code_link: "https://github.com/adityakumarsahu108/QuizApp",
+      source_code_link: "https://github.com/adityakumarsahu108/Nike-ecommerce-app",
     },
     {
       name: "Quiz App",
